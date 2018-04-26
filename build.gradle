@@ -24,7 +24,9 @@ repositories {
 
 dependencies {
     compile('org.springframework.cloud:spring-cloud-starter-config:1.4.3.RELEASE')
+    compile('org.springframework.boot:spring-boot-starter-actuator:1.5.0.RELEASE')
     compile('org.springframework.boot:spring-boot-starter-web:1.5.0.RELEASE')
+
 }
 
 dependencyManagement {
